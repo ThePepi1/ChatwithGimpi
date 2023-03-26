@@ -1,8 +1,16 @@
 { 
-    "intents": [{ 
+    "intents": [
+        { 
         "tag":"Javljanja",
         "patterns": ["Ćao","Zdravo","Dobar dan", "Hej"],
         "responses": ["Ćao kako mogu da ti pomognem" , "Zdravo mogu li ti pomoći"]
+    },    
+    { 
+        "tag":"Smerovi",
+        "patterns": ["Koji smerovi postoje u gimnaziji","Reci mi smerove u gimnaziji"],
+        "responses": ["U gimnaziji postoje 5 smera: \n Prirodno Matematički, \n Društveno jezički, \n Bilingvalni, IT, \n Sncensko vizuelni"]
     }
+
+
 ]
 }
