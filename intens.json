@@ -58,22 +58,42 @@
     { 
         "tag":"Priprema_prijemniIT",
         "patterns": ["Kako da se upišem u IT", "Kako upisati it","Upis u informatički smer", "Upisati specijalizovano odeljenje za učenike sa posebnim sposobnostima za informatiku i računarstvo"],
-        "responses": ["Da bi upisali IT potrebno je položiti posebni prijemni ispit iz matematike. Ako hoćes da saznaš više poseti sajt gimnazije"]
-    },
-    { 
-        "tag":"Priprema_prijemniUmetnički",
-        "patterns": ["Kako da se upišem audio vizuelno scenski", "Kako upisati umetnički","Upis u vizuelno-scenski", "Upisati smer za audio vizuelno scensku umetnost"],
-        "responses": ["Da bi upisali Audio vizuelno-scenski smer  potrebno je položiti posebni prijemni ispit. Ako hoćes da saznaš više poseti sajt gimnazije"]
+        "responses": ["Da bi upisali IT potrebno je položiti posebni prijemni ispit iz matematike."]
     },
     { 
         "tag":"Predmeti_IT",
         "patterns": ["Koji predmeti postoje u IT", "Reci mi nešto o predmetima u informatičkom smeru"],
-        "responses": ["Pored predmeta opšteg obrazovanje u IT smeru postoje i informatički predmeti kao što su Programiranje, Baze podataka, Primena računara."]
+        "responses": ["Predmeti za IT smer su: \n 1. Srpski jezik \n 2. Strani jezik \n 3. Istorija \n 4. Geografija \n 5. Muzička kultura \n 6. Fizika \n 7. Hemija \n 8. Fizičko vaspitanje \n 9. Matematika \n 10. Diskretna Matematika \n 11. Biologija \n 12. Psihologija \n 13. Likovna kultura \n 14. Sociologija sa pravima građana \n 15. Filozofija \n 16. Primena računara \n 17. Programiranje \n 18. Računarski sistemi \n 19. Operativni sistemi i računarske mreže \n 20. Objektno orjentisano programiranje \n 21. Baze podataka \n 22. Programske paradigme \n 23. Veb Programiranje"] 
     },
     { 
         "tag":"Zovem",
         "patterns": ["Kako se zoves"],
         "responses": ["Zovem se gimpiBot"]
+    },
+    { 
+        "tag":"Spremanje_prijemnog", 
+        "patterns": ["Kako spremati prijemni ispit za IT", "Pripreme za prijemni ispit specijalizovano informatičko odeljenje"],
+        "responses": ["Za prijemni je potrebno znanje matematike. Primere prijemnih ispit za IT možeš naći na sajtu gimnazije Pirot."]
+    },
+    { 
+        "tag":"SrpskiJezik", 
+        "patterns": ["Reci mi nešto više o Srpskom Jeziku", "Šta radimo na srpskom jeziku"],
+        "responses": ["Srpski jezik je predmet koji se u specijalizovanom IT odeljenju uči četiri godine."]
+    },
+    { 
+        "tag":"StraniJezik", 
+        "patterns": ["Reci mi nešto više o Stranom Jeziku", "Šta radimo na stranom jeziku"],
+        "responses": ["Strani jezik je predmet koji se u specijalizovanom IT odeljenju uči četiri godine. Strani jezik koji se uči u specijalizovanom IT odeljenju je Engleski jezik"]
+    },
+    { 
+        "tag":"Istorija", 
+        "patterns": ["Reci mi nešto više o Istoriji", "Šta radimo na istoriji"],
+        "responses": ["Istorija je predmet koji se u specijalizovanom IT odeljenju uči dve godine."]
+    },
+    { 
+        "tag":"Geografija", 
+        "patterns": ["Reci mi nešto više o Geografiji", "Šta radimo na Geografiji"],
+        "responses": ["Geografija je predmet koji se u specijalizovanom IT odeljenju uči dve godine."]
     }
 ]
 }
