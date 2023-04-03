@@ -8,7 +8,7 @@
     { 
         "tag":"Smerovi",
         "patterns": ["Koji smerovi postoje u gimnaziji","Reci mi smerove u gimnaziji","Koliko smerove postoji u gimnaziji"],
-        "responses": ["U gimnaziji postoje 5 smera: \n Prirodno Matematički, \n Društveno jezički, \n Bilingvalni, IT, \n Sncensko vizuelni"]
+        "responses": ["U gimnaziji postoje 5 smera: \n Prirodno Matematički, \n Društveno jezički, \n Bilingvalni,  \n IT, \n SMER ZA SCENSKU I AUDIO-VIZUELNU UMETNOST"]
     },
     { 
         "tag":"Cao",
@@ -29,7 +29,51 @@
         "tag":"Ne_Skola",
         "patterns": ["Da li da upišem" ,"Da li upisati"],
         "responses": ["Ne"]
+    },
+    { 
+        "tag":"Matematicki_Opis",
+        "patterns": ["Reci mi nešto više o matematičkom smeru" ,"Opiši mi matematičkom smeru" , "Šta je matematički smer"],
+        "responses": ["Prirodno-matematički smer, pored svestranog obrazovanja, pruža osnovna znanja iz matematičko-tehničkih oblasti, tehnoloških i informatičkih oblasti, eksperimentalnih prirodnih nauka; uključivanjem u različite projekte učenici se pripremaju za atraktivna zanimanja: lekar, stomatolog, inženjeri različitih profila, saradnici naučnih instituta, arhitekta, projektant, dizajner, sportski trener, informatičar, programe."]
+    },
+    { 
+        "tag":"Društveni_Opis",
+        "patterns": ["Reci mi nešto više o društveno jezičkom smeru","Opiši mi društveno jezički smer", "Šta je društveno jezički smer"],
+        "responses": ["Društveno-jezički smer pruža svestrano obrazovanje, mogućnost da još za vreme srednjoškolskog obrazovanja učenici steknu osnovna znanja iz oblasti društvenih i humanističkih nauka, jezika, umetnosti, medija i masovnih komunikacija; uključivanjem u različite projekte učenici se pripremaju za sve fakultete kao i za atraktivna zanimanja: voditelj, novinar, prevodilac, PR menadžer, promoter, kamerman, režiser, animator, profesor, naučnik-istraživač u društvenim naukama, lektor, pravnik, ekonomista, dizajner, umetnik…"]
+    },
+    { 
+        "tag":"It_Opis",
+        "patterns": ["Reci mi nešto više o Informatičkom smeru","Opiši mi informatički smer", "Šta je informatički smer"],
+        "responses": ["Odeljenje učenika sa posebnim sposobnostima za računarstvo i informatiku u našoj školi postoji od 2018.godine i trenutno tri generacije đaka pohađa ovaj smer-u prvom, drugom i trećem razredu.  Pripremajući se za otvaranje ovog smera, 2017/2018, vodili smo se saznanjima i podacima  da je razvoj IT sektora jedan od prioriteta Vlade Republike  Srbije  a stručnjak u oblasti IT tehnologije  jedno od najperspektivnijih zanimanja."]
+    },
+    { 
+        "tag":"SMERZASCENSKUIAUDIO-VIZUELNUUMETNOST",
+        "patterns": ["Reci mi nešto više o Audio vizuelnom scenskom smeru","Opiši mi Audio vizuelno scenski smer", "Šta je audio vizuelno scenski smer","Reci mi nešto više o Audio vizuelnom-scenskom smeru", "Reci mi nešto više o umetničkom smeru"],
+        "responses": ["Specijalizovano odeljenje za učenike sa posebnim sposobnostima za scensku i audio-vizuelnu umetnost predstavlja spoj tradicionalnog i modernog pristupa u obrazovanju.  Pohađanjem ovog smera učenici razvijaju kreativno i stvaralačko mišljenje, usavršavaju umetničke talente, postaju čuvari maternjeg jezika i kulturne baštine, primenjuju dostignuća novih digitalnih tehnologija. Usmereno obrazovanje iz predmeta Scenske umetnosti i Audio-vizuelne umetnosti omogućava učenicima sticanje specializovanih znanja i veština, što će im otvoriti vrata ka odsecima umetničkih fakulteta. Opšteobrazovni predmeti ovog smera omogućiće prohodnost učenicima ka studijskim programima srodnih ili sasvim drugih (vanumetničkih) oblasti. Podela ovog odeljenja na manje grupe omogućava izuzetan kvalitet rada i napredna postignuća učenika."]
+    },
+    { 
+        "tag":"Priprema_prijemni",
+        "patterns": ["Kako da se upišem u gimnaziju", "Kako upisati gimnaziju","Upis u gimnaziju", "Upisati gimnaziju"],
+        "responses": ["Da bi upisali Prirodno matematički ili društveno jezički smer potrebno je što bolje položiti državni prijemni ispit. Dok za IT i SMER ZA SCENSKU I AUDIO-VIZUELNU UMETNOST potreban je polagati poseban prijamni."]
+    },
+    { 
+        "tag":"Priprema_prijemniIT",
+        "patterns": ["Kako da se upišem u IT", "Kako upisati it","Upis u informatički smer", "Upisati specijalizovano odeljenje za učenike sa posebnim sposobnostima za informatiku i računarstvo"],
+        "responses": ["Da bi upisali IT potrebno je položiti posebni prijemni ispit iz matematike. Ako hoćes da saznaš više poseti sajt gimnazije"]
+    },
+    { 
+        "tag":"Priprema_prijemniUmetnički",
+        "patterns": ["Kako da se upišem audio vizuelno scenski", "Kako upisati umetnički","Upis u vizuelno-scenski", "Upisati smer za audio vizuelno scensku umetnost"],
+        "responses": ["Da bi upisali Audio vizuelno-scenski smer  potrebno je položiti posebni prijemni ispit. Ako hoćes da saznaš više poseti sajt gimnazije"]
+    },
+    { 
+        "tag":"Predmeti_IT",
+        "patterns": ["Koji predmeti postoje u IT", "Reci mi nešto o predmetima u informatičkom smeru"],
+        "responses": ["Pored predmeta opšteg obrazovanje u IT smeru postoje i informatički predmeti kao što su Programiranje, Baze podataka, Primena računara."]
+    },
+    { 
+        "tag":"Zovem",
+        "patterns": ["Kako se zoves"],
+        "responses": ["Zovem se gimpiBot"]
     }
-
 ]
 }
