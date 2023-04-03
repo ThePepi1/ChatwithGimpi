@@ -2,15 +2,34 @@
     "intents": [
         { 
         "tag":"Javljanja",
-        "patterns": ["Ćao","Zdravo","Dobar dan", "Hej"],
+        "patterns": ["Dobar dan", "Hej"],
         "responses": ["Ćao kako mogu da ti pomognem" , "Zdravo mogu li ti pomoći"]
     },    
     { 
         "tag":"Smerovi",
-        "patterns": ["Koji smerovi postoje u gimnaziji","Reci mi smerove u gimnaziji"],
+        "patterns": ["Koji smerovi postoje u gimnaziji","Reci mi smerove u gimnaziji","Koliko smerove postoji u gimnaziji"],
         "responses": ["U gimnaziji postoje 5 smera: \n Prirodno Matematički, \n Društveno jezički, \n Bilingvalni, IT, \n Sncensko vizuelni"]
+    },
+    { 
+        "tag":"Cao",
+        "patterns": ["Ćao", "Cao", "Zdravo"],
+        "responses": ["Čao", "Zdravo"]
+    },
+    { 
+        "tag":"Pozdravljanja",
+        "patterns": ["Doviđebja","Vidimo se"],
+        "responses": ["Vidimo se u Gimnaziji"]
+    },
+    { 
+        "tag":"Da_Skola",
+        "patterns": ["Da li da upišem gimnaziju", "Da li upisati gimnaziju", "Da li da upišem gimnazija", "Da li da upišem Gimnaziju", "Da li upisati Gimnazija", "Da li gimpi"],
+        "responses": ["Da"]
+    },
+    { 
+        "tag":"Ne_Skola",
+        "patterns": ["Da li da upišem" ,"Da li upisati"],
+        "responses": ["Ne"]
     }
-
 
 ]
 }
