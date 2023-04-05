@@ -58,6 +58,7 @@ print('Bot is running')
 
 def message(message):
     inits = predict_class(message, model)
+    print(inits)
     res = get_responses(inits, intens)
     print(res)  
     return res

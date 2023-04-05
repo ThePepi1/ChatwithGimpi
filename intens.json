@@ -42,7 +42,7 @@
     },
     { 
         "tag":"It_Opis",
-        "patterns": ["Reci mi nešto više o Informatičkom smeru","Opiši mi informatički smer", "Šta je informatički smer"],
+        "patterns": ["Reci mi nešto više o Informatičkom smeru","Opiši mi informatički smer", "Šta je informatički smer, Reci mi nešto više o IT smeru"],
         "responses": ["Odeljenje učenika sa posebnim sposobnostima za računarstvo i informatiku u našoj školi postoji od 2018.godine i trenutno tri generacije đaka pohađa ovaj smer-u prvom, drugom i trećem razredu.  Pripremajući se za otvaranje ovog smera, 2017/2018, vodili smo se saznanjima i podacima  da je razvoj IT sektora jedan od prioriteta Vlade Republike  Srbije  a stručnjak u oblasti IT tehnologije  jedno od najperspektivnijih zanimanja."]
     },
     { 
@@ -67,7 +67,7 @@
     },
     { 
         "tag":"Zovem",
-        "patterns": ["Kako se zoves"],
+        "patterns": ["Kako se zoves" , "Kako se zoveš"],
         "responses": ["Zovem se gimpiBot"]
     },
     { 
@@ -76,24 +76,19 @@
         "responses": ["Za prijemni je potrebno znanje matematike. Primere prijemnih ispit za IT možeš naći na sajtu gimnazije Pirot."]
     },
     { 
-        "tag":"SrpskiJezik", 
-        "patterns": ["Reci mi nešto više o Srpskom Jeziku", "Šta radimo na srpskom jeziku"],
-        "responses": ["Srpski jezik je predmet koji se u specijalizovanom IT odeljenju uči četiri godine."]
+        "tag":"Matematika", 
+        "patterns": ["Reci mi nešto više o Matematici", "Šta radimo na Matematici"],
+        "responses": ["Matematika je predmet koji se u specijalizovanom IT odeljenju uči četiri godine. Za vreme učenja matematike naučićemo kako da rešavamo kvadratne, trigonometriske jednačine, rad sa matricama kao i rad sa integralima."]
     },
     { 
-        "tag":"StraniJezik", 
-        "patterns": ["Reci mi nešto više o Stranom Jeziku", "Šta radimo na stranom jeziku"],
-        "responses": ["Strani jezik je predmet koji se u specijalizovanom IT odeljenju uči četiri godine. Strani jezik koji se uči u specijalizovanom IT odeljenju je Engleski jezik"]
+        "tag":"DMatematika", 
+        "patterns": ["Reci mi nešto više o Diskretnoj Matematici", "Šta radimo na Diskretnoj matematici", "Šta će mo naučiti na časovima Diskretne matematike"],
+        "responses": ["Diskretna Matematika je grana matematike koja se koristi u programiranju. Zbog toga se ona uči kao odvojeni predmet. Na časovima diskretne matematike ćete učiti: \n Kombinatoriku \n Skupove \n Logici \n Grafovima"]
     },
     { 
-        "tag":"Istorija", 
-        "patterns": ["Reci mi nešto više o Istoriji", "Šta radimo na istoriji"],
-        "responses": ["Istorija je predmet koji se u specijalizovanom IT odeljenju uči dve godine."]
-    },
-    { 
-        "tag":"Geografija", 
-        "patterns": ["Reci mi nešto više o Geografiji", "Šta radimo na Geografiji"],
-        "responses": ["Geografija je predmet koji se u specijalizovanom IT odeljenju uči dve godine."]
+        "tag":"PrimenaRačunara", 
+        "patterns": ["Reci mi nešto više o Primeni računara", "Šta radimo na Primena računara"],
+        "responses": ["Primena računara je Informatički predmet na kojim će te naučiti kako da koriste programe na računaru kao i istoriju računara."]
     }
 ]
 }
